@@ -54,7 +54,7 @@ class Utils {
       case 2:
         {
           text =
-              "userId=${getCookieByName(str, "userId")}&token=${getCookieByName(str, "token")};";
+              "userId=${getCookieByName(str, "userId")};token=${getCookieByName(str, "token")};uuid=${getCookieByName(str, "iuuid")};";
           break;
         }
       default:
